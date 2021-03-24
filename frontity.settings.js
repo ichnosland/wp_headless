@@ -1,10 +1,10 @@
 const settings = {
-  "name": "maieutical",
+  "name": "Glabro",
   "state": {
     "frontity": {
       "url": "https://www.glabro.it/",
-      "title": "Maieutical Labs",
-      "description": "claim"
+      "title": "Glabro.it",
+      "description": "headless bald"
     }
   },
   "packages": [
@@ -18,20 +18,20 @@ const settings = {
               "/"
             ],
             [
-              "Nature",
-              "/category/nature/"
+              "Interviste",
+              "category/intervista/"
             ],
             [
-              "Travel",
-              "/category/travel/"
+              "Musica",
+              "category/musica-2/"
             ],
             [
-              "Japan",
-              "/tag/japan/"
+              "Geek",
+              "/category/geek-2/"
             ],
             [
               "About Us",
-              "/about-us/"
+              "/figli-di-glabro/"
             ]
           ],
           "featured": {

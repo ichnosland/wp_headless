@@ -10,7 +10,7 @@ const Header = ({ state }) => {
         <StyledLink link="/">
           <Title>{state.frontity.title}</Title>
         </StyledLink>
-        <Description>{state.frontity.title} :: {state.frontity.description}</Description>
+        <Description>{state.frontity.description}</Description>
         <MobileMenu />
       </Container>
       <Nav />
