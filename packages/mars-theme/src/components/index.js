@@ -1,6 +1,7 @@
 import { Global, css, connect, styled, Head } from "frontity";
 import Switch from "@frontity/components/switch";
 import Header from "./header";
+import Footer from "./footer";
 import List from "./list";
 import Post from "./post";
 import Loading from "./loading";
@@ -45,6 +46,7 @@ const Theme = ({ state }) => {
           <PageError when={data.isError} />
         </Switch>
       </Main>
+      <Footer />
     </>
   );
 };

@@ -40,6 +40,9 @@ const marsTheme = {
       closeMobileMenu: ({ state }) => {
         state.theme.isMobileMenuOpen = false;
       },
+      beforeSSR: ({ actions }) => async () => {
+        await actions.source.fetch("menus/361");
+      }
     },
   },
   libraries: {
