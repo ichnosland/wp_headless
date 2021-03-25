@@ -18,19 +18,19 @@ const settings = {
               "/"
             ],
             [
-              "Interviste",
+              "category",
               "category/intervista/"
             ],
             [
-              "Musica",
-              "category/musica-2/"
+              "Author",
+              "author/admin/"
             ],
             [
-              "Geek",
-              "/category/geek-2/"
+              "post",
+              "/montage-of-hack-documentario-autorizzato-kurt-cobain/"
             ],
             [
-              "About Us",
+              "page",
               "/figli-di-glabro/"
             ]
           ],
